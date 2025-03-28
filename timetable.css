@@ -1,0 +1,89 @@
+/* General Table Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.timetable-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    
+border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Header Row */
+th {
+    background-color: #2C3E50;
+    color: white;
+}
+
+/* Alternating Row Colors */
+tr:nth- /* General Table Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.timetable-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align:even
+}
+
+/* Highlight Time Columns */
+td:first-child {
+    background-color: #34495E;
+    color: white;
+    font-weight: bold;
+}
+
+/* Styling Break and Lunch */
+.break {
+    background-color: #E74C3C;
+    color: white;
+    font-weight: bold;
+}
+
+.lunch {
+    background-color: #F1C40F;
+    color: black;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
